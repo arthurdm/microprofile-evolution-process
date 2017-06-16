@@ -10,19 +10,18 @@
 
 ## Introduction
 
-The [OpenAPI Initiative](https://www.openapis.org/) is a consertium of various industry-leading companies that came together with a goal to standardize the documentation of RESTful APIs.  This standard is called [OpenAPI](https://github.com/OAI/OpenAPI-Specification/blob/OpenAPI.next/versions/3.0.md) and it is at version 3 to naturally succeed the contributing specification [Swagger v2](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md).
+The [OpenAPI Initiative](https://www.openapis.org/) is a consertium of various industry-leading companies that came together with a goal to standardize the documentation of RESTful APIs.  This specification is called [OpenAPI](https://github.com/OAI/OpenAPI-Specification/blob/OpenAPI.next/versions/3.0.md) (hereon OAS) and it is at version 3 to naturally succeed the contributing specification [Swagger v2](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md).
 
-This standard allows users to fully document their RESTful applications, including all request and response details.  It also allows encapsulating frameworks to optimize traffic routing, security and validation on behalf of the target application.
+The OAS allows users to fully document their RESTful applications, including all request and response details.  It also allows encapsulating frameworks to optimize traffic routing, security and validation on behalf of the target application.
 
 Mailinglist thread: [Discussion thread topic for that proposal](https://groups.google.com/forum/#!topic/microprofile/CXq1h45_HOw)
 
 ## Motivation
 
-Describe the problems that this proposal seeks to address. If the
-problem is that some common pattern is currently hard to express, show
-how one can currently get a similar effect and describe its
-drawbacks. If it's completely new functionality that cannot be
-emulated, motivate why this new functionality would help Java EE developers to develop and operate microservice architectures.
+The OAS is an essential part of a RESTful microservice but unfortunately the specification is language-agnostic, which means it does not expose a set of annotations or programming models for Java developers. One possible workaround would be to include a pre-generated OpenAPI document (YAML or JSON format) within the Java EE web application, however that does not provide a native programming model for Java developers.  Even 'where' to include a pre-generated OpenAPI document is not prescribed by the OAS.  
+
+Thus, to avoid having dozens of different Java OAS programming models from different vendors, there needs to be a standard set of annotations and interfaces which form a consistent programming model that suits the various Java EE microservices architectures that expose RESTful APIs.
+
 
 ## Proposed solution
 
