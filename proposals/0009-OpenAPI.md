@@ -1,4 +1,4 @@
-# Feature name
+# OpenAPI
 
 * Proposal: [MP-0009](0009-OpenAPI.md)
 * Authors: [Arthur De Magalhaes](https://github.com/arthurdm), [Tony Tam](https://github.com/fehguy)
@@ -6,15 +6,15 @@
 
 *During the review process, add the following fields as needed:*
 
-* Decision Notes: [Discussion thread topic covering the  Rationale](https://groups.google.com/forum/#!forum/microprofile), [Discussion thread topic with additional Commentary](https://groups.google.com/forum/#!forum/microprofile)
+* Decision Notes: [Discussion thread topic covering the  Rationale](https://groups.google.com/forum/#!topic/microprofile/CXq1h45_HOw)
 
 ## Introduction
 
-A short description of what the feature is. Try to keep it to a
-single-paragraph "elevator pitch" so the reader understands what
-problem this proposal is addressing.
+The [OpenAPI Initiative](https://www.openapis.org/) is a consertium of various industry-leading companies that came together with a goal to standardize the documentation of RESTful APIs.  This standard is called [OpenAPI](https://github.com/OAI/OpenAPI-Specification/blob/OpenAPI.next/versions/3.0.md) and it is at version 3 to naturally succeed the contributing specification [Swagger v2](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md).
 
-Mailinglist thread: [Discussion thread topic for that proposal](https://groups.google.com/forum/#!forum/microprofile)
+This specification allows users to fully document their RESTful applications, including all request and response details.  It also allows encapsulating frameworks to optimize traffic routing, security and validation on behalf of the target application.
+
+Mailinglist thread: [Discussion thread topic for that proposal](https://groups.google.com/forum/#!topic/microprofile/CXq1h45_HOw)
 
 ## Motivation
 
