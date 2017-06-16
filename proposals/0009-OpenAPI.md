@@ -25,7 +25,7 @@ Thus, to avoid having dozens of different Java OAS programming models from diffe
 
 ## Proposed solution
 
-The [Swagger repositories](https://github.com/swagger-api) have been the 
+The [Swagger repositories](https://github.com/swagger-api) have been the 'de facto' standard for Java Swagger programming models, and they are building a correponding set of interfaces for OAS.  
 
 ## Detailed design (if applicable)
 
