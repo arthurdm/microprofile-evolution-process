@@ -12,7 +12,7 @@
 
 The [OpenAPI Initiative](https://www.openapis.org/) is a consertium of various industry-leading companies that came together with a goal to standardize the documentation of RESTful APIs.  This standard is called [OpenAPI](https://github.com/OAI/OpenAPI-Specification/blob/OpenAPI.next/versions/3.0.md) and it is at version 3 to naturally succeed the contributing specification [Swagger v2](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md).
 
-This specification allows users to fully document their RESTful applications, including all request and response details.  It also allows encapsulating frameworks to optimize traffic routing, security and validation on behalf of the target application.
+This standard allows users to fully document their RESTful applications, including all request and response details.  It also allows encapsulating frameworks to optimize traffic routing, security and validation on behalf of the target application.
 
 Mailinglist thread: [Discussion thread topic for that proposal](https://groups.google.com/forum/#!topic/microprofile/CXq1h45_HOw)
 
@@ -26,9 +26,7 @@ emulated, motivate why this new functionality would help Java EE developers to d
 
 ## Proposed solution
 
-Describe your solution to the problem. Provide examples and describe
-how they work. Show how your solution is better than current
-workarounds: is it cleaner, safer, or more efficient?
+The [Swagger repositories](https://github.com/swagger-api) have been the 
 
 ## Detailed design (if applicable)
 
